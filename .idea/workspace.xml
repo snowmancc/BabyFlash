@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d3319df-179c-4e28-a679-b9d17103dace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/1579968678532.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/1579968708974.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/1579968940449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/1579968966968.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/1579970098095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/21579868519847.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/21579869445542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/21579970076161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageFile/21580228886859.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/Global.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/Server5Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/controller/EdwardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/IssueTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/KnowledgeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/KnowledgeCardAndIssueTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/MemberAndKnowledgeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Baby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/Mycard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/exception/http/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/CertificationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/ImageFileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/ImageUrlModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/ModelCarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/TokenModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/AgeTagModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModelList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModelList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardNoteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardNoteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfKnowledge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMemberCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMyCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/IssueTagModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/MemberCardModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/NoteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/ReferenceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/URLModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/BabyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/MemberIdModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/MemberInfoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/MemberModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/BabyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/IssueTagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardAndIssueTagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberAndKnowledgeCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MyCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/ImageFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/KnowledgeCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberCardsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteCardsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteKnowledgeCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="server5" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/BabyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberAndMyCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/StubKnowledgeCardService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/classpath/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/data" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/MemberAndMyCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/KnowledgeCardAndIssueTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/KnowledgeCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberAndMyCardRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/IssueTagRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardAndIssueTagRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/MemberAndKnowledgeCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberAndKnowledgeCardRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModelAppendNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfKnowledge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMemberCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModelList2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/ImageFileSevice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/TokenModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/ImageUrlModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteKnowledgeCardService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/MyCardAndIssueTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MyCardAndIssueTagRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/IssueTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/MyCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/Mycard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/controller/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/controller/StorageProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/FileUploadTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/Server5Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/KnowledgeCardService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Baby.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMyCards.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMyCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteCardsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MyCardRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/MemberInfoModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/Global.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/ImageFileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberCardsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/snow/server5/controller/EdwardController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server5" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/java/EEFighter-master" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Server\server5\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.snow.server5.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Server4Application">
+    <configuration name="Server4Application" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.snow.server5.Server5Application" />
+      <module name="server5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snow.server2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data.sql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file>$PROJECT_DIR$/src/main/resources/data.sql</odps_target_file>
+      <odps_output_dir>C:\Users\user\AppData\Local\Temp\</odps_output_dir>
+      <job_name />
+      <odps_parameter name="odps.sql.type.system.odps2" value="true" />
+      <odps_parameter name="odps.compiler.runmode" value="Studio" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server4Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d3319df-179c-4e28-a679-b9d17103dace" name="Default Changelist" comment="" />
+      <created>1577323710553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577323710553</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.24329759" />
+      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.2077748" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021216" side_tool="true" weight="0.2077748" />
+      <window_info id="DB Browser" order="7" show_stripe_button="false" weight="0.3297587" />
+      <window_info id="Project Explorer" order="8" show_stripe_button="false" weight="0.3297587" />
+      <window_info id="Job Explorer" order="9" show_stripe_button="false" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.7892504" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35219237" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.81046677" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="bottom" id="Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.20375335" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58557284" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42857143" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.20375335" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((String)((StandardMultipartFile)file).filename).value[2]" custom="java.lang.String,org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.StandardMultipartFile" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/bind/annotation/PutMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/ImageFileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/MyCardAndIssueTag.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/card/IssueTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MyCardAndIssueTagRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/MemberAndMyCard.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/nio/file/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/controller/StorageProperties.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/FileUploadTests.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/controller/StorageService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/controller/FileUploadController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/Server5Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/exception/http/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/ImageUrlModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/CardModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Baby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMemberCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfMyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/FavoriteCardModelOfKnowledge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/KnowledgeCardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="137" column="27" lean-forward="true" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="27" />
+          <folding>
+            <element signature="method#getCardsByTag#0;class#KnowledgeCardService#0" />
+            <element signature="e#1462#1767#1" />
+            <element signature="e#1771#1858#1" />
+            <element signature="e#1893#1971#1" />
+            <element signature="e#1975#2296#1" />
+            <element signature="n#!!block;n#getTagByName#0;n#KnowledgeCardService#0" />
+            <element signature="n#!!block;n#getTagById#0;n#KnowledgeCardService#0" />
+            <element signature="method#getKnowledgeCardById#0;class#KnowledgeCardService#0" />
+            <element signature="method#getKnowledgeCardById#1;class#KnowledgeCardService#0" />
+            <element signature="method#getTags#0;class#KnowledgeCardService#0" />
+            <element signature="method#getTags#1;class#KnowledgeCardService#0" />
+            <element signature="method#getKnowledgeCards#0;class#KnowledgeCardService#0" />
+            <element signature="method#genRandomCardIds#0;class#KnowledgeCardService#0" />
+            <element signature="method#genRandomCards#0;class#KnowledgeCardService#0" />
+            <element signature="method#getCardsByAgeTag#0;class#KnowledgeCardService#0" />
+            <element signature="method#getCardsByAgeTag#1;class#KnowledgeCardService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardAndIssueTagRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/KnowledgeCardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MyCardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/MemberAndKnowledgeCardRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/memebr/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/card/NoteModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/entity/mycard/Mycard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/member/MemberInfoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider editor-type-id="OdpsQlGraph" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="OdpsQlEditor">
+        <state relative-caret-position="5236">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteCardsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/ImageFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/org/springframework/data/repository/Repository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.3.RELEASE/spring-data-commons-2.2.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.2.3.RELEASE/spring-data-jpa-2.2.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/repository/BabyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberFavoriteKnowledgeCardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="method#cancelMemberFavoriteKnowledge#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#getMemberFavoriteKnowledgeCards#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#changeKnowledgeToFavoriteCardModel#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#checkMemberRecordExist#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#getCurrentTime#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#getRecord#0;class#MemberFavoriteKnowledgeCardService#0" />
+            <element signature="method#createRecord#0;class#MemberFavoriteKnowledgeCardService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#checkEmailExists#0;n#MemberService#0" />
+            <element signature="method#checkMemberExits#0;class#MemberService#0" />
+            <element signature="method#getMemberId#0;class#MemberService#0" />
+            <element signature="method#addMember#0;class#MemberService#0" />
+            <element signature="e#1874#2140#1" />
+            <element signature="method#checkCertification#0;class#MemberService#0" />
+            <element signature="method#createToken#0;class#MemberService#0" />
+            <element signature="method#getMemberInfo#0;class#MemberService#0" />
+            <element signature="method#deleteBabiesByMemberId#0;class#MemberService#0" />
+            <element signature="method#updateMemberInfo#0;class#MemberService#0" />
+            <element signature="method#saveFile#0;class#MemberService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/service/MemberCardsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server5.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/model/TokenModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/snow/server5/controller/EdwardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="49" selection-start-line="49" selection-end-line="50" />
+          <folding>
+            <element signature="e#954#969#0" />
+            <element signature="method#checkEmail#0;class#EdwardController#0" />
+            <element signature="e#1648#1761#1" />
+            <element signature="e#1767#1863#1" />
+            <element signature="method#register#0;class#EdwardController#0" />
+            <element signature="e#2110#2224#1" />
+            <element signature="e#2230#2343#1" />
+            <element signature="method#login#0;class#EdwardController#0" />
+            <element signature="e#2689#3148#1" />
+            <element signature="e#2758#3023#1" />
+            <element signature="e#3029#3138#1" />
+            <element signature="e#3154#3257#1" />
+            <element signature="method#getMemberInfo#0;class#EdwardController#0" />
+            <element signature="e#3510#3823#0" />
+            <element signature="e#3572#3693#1" />
+            <element signature="e#3699#3813#1" />
+            <element signature="e#3852#3951#0" />
+            <element signature="method#updateMemberInfo#0;class#EdwardController#0" />
+            <element signature="e#4261#4608#0" />
+            <element signature="e#4323#4478#1" />
+            <element signature="e#4484#4598#1" />
+            <element signature="e#4637#4736#0" />
+            <element signature="method#loadMemberImage#0;class#EdwardController#0" />
+            <element signature="e#5142#5299#1" />
+            <element signature="method#getMemberImageUrl#0;class#EdwardController#0" />
+            <element signature="e#5683#5834#1" />
+            <element signature="method#getRandomCards#0;class#EdwardController#0" />
+            <element signature="e#6199#6341#1" />
+            <element signature="method#getCardsByTag#0;class#EdwardController#0" />
+            <element signature="e#6724#6856#1" />
+            <element signature="method#memberFavoriteCards#0;class#EdwardController#0" />
+            <element signature="e#7329#7547#1" />
+            <element signature="method#memberCancelFavoriteCards#0;class#EdwardController#0" />
+            <element signature="e#8000#8181#1" />
+            <element signature="method#memberFavoriteCards#1;class#EdwardController#0" />
+            <element signature="e#8576#8757#1" />
+            <element signature="method#createMemberCard#0;class#EdwardController#0" />
+            <element signature="e#9439#9573#1" />
+            <element signature="method#addMemberCardNote#0;class#EdwardController#0" />
+            <element signature="e#10222#10534#1" />
+            <element signature="e#10240#10330#0" />
+            <element signature="e#10356#10466#0" />
+            <element signature="method#cancelMemberCard#0;class#EdwardController#0" />
+            <element signature="e#11093#11225#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>server5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
